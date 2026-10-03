@@ -1,0 +1,7 @@
+outlet_type,n,neg_share,neg_ci_lo,neg_ci_hi,pos_share,risk_topic_share,mean_vader
+blog_other,162,0.407,0.335,0.484,0.389,0.235,-0.029
+financial_press,105,0.333,0.25,0.428,0.571,0.105,0.212
+us_major_media,64,0.594,0.471,0.705,0.344,0.438,-0.205
+non_us_media,48,0.562,0.423,0.693,0.354,0.354,-0.134
+social_media,21,0.286,0.138,0.5,0.429,0.381,0.089
+tech_press,19,0.474,0.273,0.683,0.421,0.263,-0.07

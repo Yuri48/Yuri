@@ -1,0 +1,6 @@
+topic,n,neg_share,neg_ci_lo,neg_ci_hi,pos_share,risk_topic_share,mean_vader
+ai_business_markets,130,0.331,0.256,0.415,0.523,0.0,0.197
+ai_risk_safety,107,0.692,0.599,0.771,0.271,1.0,-0.319
+ai_policy_regulation,105,0.486,0.392,0.58,0.448,0.0,-0.018
+ai_product_research,61,0.148,0.08,0.257,0.443,0.0,0.109
+other,16,0.25,0.102,0.495,0.5,0.0,0.144

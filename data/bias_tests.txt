@@ -1,0 +1,13 @@
+Chi-square negativity x outlet_type: chi2=30.11, dof=10, p=0.0008
+US major media neg share 0.59 vs non_us_media 0.56: z=0.33, p=0.740
+US major media neg share 0.59 vs financial_press 0.33: z=3.32, p=0.001
+US major media neg share 0.59 vs tech_press 0.47: z=0.93, p=0.354
+US major media neg share 0.59 vs social_media 0.29: z=2.45, p=0.014
+US major media neg share 0.59 vs blog_other 0.41: z=2.53, p=0.011
+Risk/safety stories: 107; product/research stories: 61 (positive-toned: 27); ratio risk:positive-progress = 3.96
+Negative share baseline (Sep 1-7): 0.429 (n=28) vs event window (Sep 8-30): 0.432 (n=419)
+Risk-topic share baseline: 0.286 vs event window: 0.255
+OLS neg_share_t on basket returns (HAC): const: b=0.666 (p=0.000); ret_same_day: b=-6.565 (p=0.014); ret_lag1: b=-0.656 (p=0.767); cum_ret_to_date: b=-7.391 (p=0.001)
+selloff Sep 8-16: n=122, neg_share=0.639, risk_share=0.385, mean_vader=-0.225
+rally Sep 17-25: n=137, neg_share=0.409, risk_share=0.168, mean_vader=0.039
+late Sep 26-30: n=160, neg_share=0.294, risk_share=0.231, mean_vader=0.129
