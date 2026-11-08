@@ -5,7 +5,7 @@
   // Create a free access key at https://web3forms.com for the address that
   // should receive quote requests, and paste it here.
   var FORM_ENDPOINT = 'https://api.web3forms.com/submit';
-  var FORM_ACCESS_KEY = '';           // empty = preview mode (shows thank-you, sends nothing)
+  var FORM_ACCESS_KEY = '32fcca62-ab44-4ee3-b7f5-538fae74df97'; // empty = preview mode (shows thank-you, sends nothing)
 
   var quote = document.querySelector('.quote');
   var form = document.getElementById('quote-form');
