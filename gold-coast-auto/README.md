@@ -17,11 +17,11 @@ One-page marketing site for Gold Coast Auto Group (Great Neck, NY). No build ste
 
 ## Quote form
 
-Submissions are sent by [Web3Forms](https://web3forms.com). Create a free access key for the email that should receive requests and paste it into `FORM_ACCESS_KEY` in `js/site.js`. Until a key is set the form runs in preview mode: it shows the thank-you message but sends nothing.
+Submissions are sent by [Web3Forms](https://web3forms.com) to Jared@goldcoastautogroup.com, using the access key in `FORM_ACCESS_KEY` in `js/site.js`. If the key is removed, the form runs in preview mode: it shows the thank-you message but sends nothing.
 
 ## Still waiting on
 
-- Jared's headshot: replace the `JH` block in `index.html` with an `<img>` (there is a comment showing where).
+- A larger headshot. `images/jared.jpg` is 447 px square; 1000 px or more would look sharper.
 - A social preview image at `images/og.jpg` (1200 x 630), referenced in the page head.
 - The domain. Canonical and sitemap URLs assume `goldcoastautogroup.com`.
 
