@@ -101,7 +101,7 @@ h1, h2, h3, p { margin: 0; }
 /* ---------- Home: hero ---------- */
 @keyframes heroDrift { from { transform: scale(1); } to { transform: scale(1.07); } }
 .hero { position: relative; height: calc(100vh - var(--header-h)); min-height: 640px; background: var(--bg-2); overflow: hidden; display: flex; align-items: flex-end; }
-.hero-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 62%; animation: heroDrift 22s ease-in-out infinite alternate; }
+.hero-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 58%; animation: heroDrift 22s ease-in-out infinite alternate; }
 .hero-shade-v { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(12,12,14,0.5) 0%, rgba(12,12,14,0.15) 42%, rgba(12,12,14,0.9) 100%); }
 .hero-shade-h { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(12,12,14,0.55) 0%, rgba(12,12,14,0) 55%); }
 .hero .wrap { position: relative; width: 100%; padding-bottom: 110px; }
@@ -222,6 +222,20 @@ h1, h2, h3, p { margin: 0; }
 .feature-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 68%; }
 .feature-img .shade { position: absolute; inset: 0; background: linear-gradient(90deg, var(--bg) 0%, rgba(12,12,14,0) 40%); }
 
+/* ---------- FAQ ---------- */
+.faq .wrap { padding-top: 100px; padding-bottom: 110px; }
+.faq-grid { display: grid; grid-template-columns: minmax(280px, 1fr) minmax(0, 1.6fr); gap: 72px; align-items: start; }
+.faq-grid .eyebrow { margin-bottom: 18px; }
+.faq-grid .lead { font-size: 15.5px; line-height: 1.75; color: var(--muted); margin-top: 22px; max-width: 36ch; }
+.faq-grid .lead a { color: var(--gold-dark); font-weight: 600; border-bottom: 1px solid rgba(185,151,91,0.5); }
+.faq-list details { border-top: 1px solid rgba(27,26,23,0.14); }
+.faq-list details:last-child { border-bottom: 1px solid rgba(27,26,23,0.14); }
+.faq-list summary { list-style: none; cursor: pointer; padding: 24px 40px 24px 0; font-size: 17px; font-weight: 600; color: var(--ink); position: relative; }
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; position: absolute; right: 4px; top: 20px; font-family: var(--serif); font-size: 26px; line-height: 1; color: var(--gold); transition: transform .2s; }
+.faq-list details[open] summary::after { transform: rotate(45deg); }
+.faq-list details p { font-size: 15.5px; line-height: 1.8; color: var(--muted); padding: 0 40px 26px 0; max-width: 60ch; }
+
 /* ---------- About ---------- */
 .profile .wrap { padding-top: 110px; padding-bottom: 110px; display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 88px; align-items: center; }
 .profile-card { max-width: 520px; width: 100%; justify-self: center; }
@@ -316,6 +330,7 @@ textarea { resize: vertical; }
   .quote .wrap { grid-template-columns: 1fr; gap: 56px; }
   .profile .wrap { grid-template-columns: 1fr; gap: 48px; }
   .profile-card { max-width: 420px; justify-self: start; }
+  .faq-grid { grid-template-columns: 1fr; gap: 40px; }
   .feature { grid-template-columns: 1fr; }
   .feature-img { min-height: 420px; }
   .feature-img .shade { background: linear-gradient(180deg, var(--bg) 0%, rgba(12,12,14,0) 30%); }
@@ -330,7 +345,8 @@ textarea { resize: vertical; }
   .page-head .wrap { padding-top: 64px; padding-bottom: 48px; }
   .intro .wrap, .how .wrap, .strip .wrap, .why .wrap, .reviews .wrap, .svc-grid-sec .wrap, .profile .wrap, .quote .wrap { padding-top: 64px; padding-bottom: 64px; }
   .feature .wrap, .reach .wrap, .cta-band .wrap, .cta-plain .wrap { padding-top: 80px; padding-bottom: 80px; }
-  .intro-grid, .why-grid, .svc-grid, .quote .wrap, .profile .wrap { grid-template-columns: 1fr; gap: 40px; }
+  .intro-grid, .why-grid, .svc-grid, .faq-grid, .quote .wrap, .profile .wrap { grid-template-columns: 1fr; gap: 40px; }
+  .faq .wrap { padding-top: 64px; padding-bottom: 64px; }
   .feature-text { padding: 72px var(--gutter); }
   .form-card { padding: 32px 24px; }
   .svc { padding: 36px 28px; }
