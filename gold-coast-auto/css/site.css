@@ -85,7 +85,7 @@ h1, h2, h3, p { margin: 0; }
 /* ---------- How it works ---------- */
 .how .wrap { padding-top: 100px; padding-bottom: 110px; }
 .how .h2 { margin-bottom: 64px; }
-.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 48px; }
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px; }
 .step { border-top: 1px solid rgba(142,116,64,0.4); padding-top: 28px; }
 .step-n { font-family: var(--serif); font-size: 56px; color: var(--gold); margin: 0 0 18px; line-height: 1; }
 .step h3 { font-size: 16px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink); margin: 0 0 14px; }
@@ -155,6 +155,8 @@ textarea { resize: vertical; }
 .contact-row .big:hover { color: var(--gold-dark); }
 .contact-row p { font-size: 16px; line-height: 1.7; color: var(--ink); }
 .contact-row.last { padding-bottom: 36px; }
+.contact-row .ig { color: var(--ink); font-weight: 600; border-bottom: 1px solid rgba(142,116,64,0.5); }
+.contact-row .ig:hover { color: var(--gold-dark); }
 .map { height: 260px; border: 1px solid rgba(27,26,23,0.16); overflow: hidden; }
 .map iframe { display: block; width: 100%; height: 260px; border: 0; }
 
@@ -184,7 +186,7 @@ textarea { resize: vertical; }
   .intro .wrap, .how .wrap, .reviews .wrap, .quote .wrap, .profile .wrap { padding-top: 64px; padding-bottom: 64px; }
   .intro-grid, .quote .wrap { grid-template-columns: 1fr; gap: 40px; }
   .how .h2 { margin-bottom: 40px; }
-  .steps { gap: 32px; }
+  .steps { gap: 32px; grid-template-columns: 1fr; }
   .form-card { padding: 32px 24px; }
   .form { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; align-items: flex-start; gap: 12px; }

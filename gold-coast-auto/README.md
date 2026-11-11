@@ -4,7 +4,7 @@ One-page marketing site for Gold Coast Auto Group (Great Neck, NY). No build ste
 
 | File | What it is |
 | --- | --- |
-| `index.html` | The whole site: hero, intro, four steps, Jared, reviews, quote form, footer |
+| `index.html` | The whole site: hero, intro, three steps, Jared, reviews, quote form (with Instagram link), footer |
 | `css/site.css` | All styling. Colors and fonts are the variables at the top. |
 | `js/site.js` | The quote form (and the only JavaScript on the page) |
 | `images/` | Two photos as WebP with JPEG fallbacks |
@@ -24,6 +24,10 @@ Submissions are sent by [Web3Forms](https://web3forms.com) to Jared@goldcoastaut
 - A larger headshot. `images/jared.jpg` is 447 px square; 1000 px or more would look sharper.
 - A social preview image at `images/og.jpg` (1200 x 630), referenced in the page head.
 - The domain. Canonical and sitemap URLs assume `goldcoastautogroup.com`.
+
+## Putting it on IONOS
+
+Upload everything inside this `gold-coast-auto` folder (not the folder itself) to the web space root in IONOS, using the IONOS file manager or SFTP. `index.html` must sit at the top level, next to the `css`, `js` and `images` folders.
 
 ## Local preview
 
