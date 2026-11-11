@@ -12,7 +12,7 @@ One-page marketing site for Gold Coast Auto Group (Great Neck, NY). No build ste
 ## Editing
 
 - Text: open `index.html` and change the words.
-- Phone number: search for `5165183592` and `(516) 518-3592`.
+- Phone number: search for `5168589069` and `(516) 858-9069`.
 - Colors and fonts: the `:root` block at the top of `css/site.css`.
 
 ## Quote form
