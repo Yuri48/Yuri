@@ -111,8 +111,13 @@ h1, h2, h3, p { margin: 0; }
 .rating { display: flex; align-items: baseline; gap: 20px; flex-wrap: wrap; margin-bottom: 56px; }
 .rating h2 { font-family: var(--serif); font-weight: 400; font-size: clamp(48px,4vw,64px); line-height: 1; color: var(--ink); }
 .rating .stars { font-size: 20px; letter-spacing: 6px; color: var(--gold); }
-.rating .stars .part { background: linear-gradient(90deg, var(--gold) 70%, rgba(27,26,23,0.18) 70%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.rating .stars .part { background: linear-gradient(90deg, var(--gold) 60%, rgba(27,26,23,0.18) 60%); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .rating .on { font-size: 14px; color: var(--muted); }
+.rating-link { display: flex; align-items: baseline; gap: 20px; flex-wrap: wrap; color: inherit; text-decoration: none; }
+.rating-link:hover .on, .rating-link:focus-visible .on { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
+.review-cta { margin-left: auto; font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--gold); padding-bottom: 4px; }
+.review-cta:hover, .review-cta:focus-visible { color: var(--gold); }
+@media (max-width: 700px) { .rating { flex-direction: column; align-items: flex-start; gap: 18px; } .review-cta { margin-left: 0; } }
 .review-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; }
 .review { background: var(--card); border: 1px solid rgba(27,26,23,0.1); padding: 40px 36px; display: flex; flex-direction: column; gap: 22px; }
 .review .stars { font-size: 14px; letter-spacing: 4px; color: var(--gold); }
